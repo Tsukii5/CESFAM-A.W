@@ -34,3 +34,27 @@
     height: 300px; /* Ajusta la altura según necesidad */
     border: none;
 }
+
+/* Sección de imágenes */
+.section-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+}
+
+.section-img img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.section-img img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(110%);
+}

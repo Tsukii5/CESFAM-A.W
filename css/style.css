@@ -19,6 +19,11 @@
     filter: blur(8px) opacity(0.6);
     z-index: -1; /* Coloca la imagen detrás del contenido */
 }
+
+.inicio-content2{
+    margin-right: 10%;
+}
+
 .map-container {
     flex: 1; /* Permite que el mapa ocupe el espacio restante */
     max-width: 50%; /* Define el ancho máximo del mapa */

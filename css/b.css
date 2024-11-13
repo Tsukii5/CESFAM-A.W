@@ -27,14 +27,14 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: #23325A;
+    color: #f6f8fb;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
     font-size: 20px;
-    color: #fbf8f6;
+    color: #23325A;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;

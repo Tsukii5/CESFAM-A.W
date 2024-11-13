@@ -97,3 +97,95 @@
 .social-icons a:hover {
     color: #fff;
 }
+
+
+/* html-2 */
+/* Footer styling */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 2em 1em;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-info, .footer-nav, .social-media, .newsletter, .legal-info {
+    margin-bottom: 1em;
+}
+
+/* Styling for contact info */
+.footer-info p {
+    margin: 0.3em 0;
+}
+
+/* Footer navigation links */
+.footer-nav a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover, .social-media a:hover {
+    color: #ffd700; /* Cambia a dorado al pasar el mouse */
+}
+
+/* Social media icons */
+.social-media a {
+    font-size: 1.2em; /* Ajuste del tamaño de los íconos */
+}
+
+/* Newsletter subscription form */
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 0.5em 1em;
+    background-color: #ffd700; /* Color dorado para el botón */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #e6b800; /* Oscurece el botón al pasar el mouse */
+}
+
+/* Legal info */
+.legal-info p {
+    font-size: 0.9em;
+    color: #aaa; /* Texto en gris claro */
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+    footer {
+        text-align: left;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-info, .footer-nav, .social-media, .newsletter, .legal-info {
+        flex: 1;
+        margin: 0 10px;
+    }
+}
